@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".seeprofile"
+    android:background="@drawable/back">
+
+
+       <RelativeLayout
+            android:layout_height="match_parent"
+           android:layout_width="match_parent">
+           <ImageButton
+               android:layout_width="50dp"
+               android:layout_height="50dp"
+               android:id="@+id/rju3"
+               android:src="@drawable/ic_baseline_arrow_back_24"
+               android:background="@android:color/transparent"></ImageButton>
+
+           <TextView
+               android:id="@+id/text"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginLeft="13dp"
+               android:layout_toRightOf="@id/rju3"
+               android:text="chat app!"
+               android:textSize="20sp"
+               android:layout_marginTop="10dp"/>
+
+       </RelativeLayout>
+
+
+
+
+
+
+    <androidx.cardview.widget.CardView
+        tools:ignore="MissingClass"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="80dp"
+        android:id="@+id/getuserimage"
+        android:layout_centerHorizontal="true"
+        app:cardCornerRadius="130dp">
+
+        <ImageView
+            android:id="@+id/imgv1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:layout_centerHorizontal="true"
+
+            android:scaleType="centerCrop"
+            android:src="@drawable/back"></ImageView>
+    </androidx.cardview.widget.CardView>
+
+
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/getuserimage"
+        android:hint="NAME "
+        android:padding="28dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Want To Update Your Profile ?"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/name"
+        android:layout_marginTop="50dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:id="@+id/updatp"
+        android:textColor="#303030">
+
+    </TextView>
+
+
+</RelativeLayout>
