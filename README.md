@@ -1,5 +1,5 @@
 # small chat app
-A small Android app to chat using firbase
+A small Android app to chat using firbase  
 note:this project developing with firebase in test mode, soo he configured to stop allowing request after 30 days.
 ##  screenchot
 
